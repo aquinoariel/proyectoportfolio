@@ -1,0 +1,171 @@
+body {
+  position: relative;
+  background-color: black; }
+  body .menu {
+    background-color: black; }
+    body .menu ul li a {
+      color: white; }
+  body main .seccionUno {
+    background-color: black; }
+    body main .seccionUno div .imgDos {
+      position: absolute;
+      padding-left: 1580px;
+      padding-top: 720px; }
+    body main .seccionUno div .rs {
+      position: absolute;
+      padding-left: 91px; }
+    body main .seccionUno h1 {
+      position: absolute;
+      font-size: 4rem;
+      color: white;
+      display: grid;
+      grid-template-columns: 800px;
+      grid-template-rows: 400px;
+      padding-left: 100px;
+      padding-top: 250px; }
+    body main .seccionUno div .img {
+      padding-left: 1450px;
+      width: 99%; }
+  body main .seccionDos {
+    background-color: black;
+    padding-top: 80px; }
+    body main .seccionDos .textoDos {
+      color: white;
+      padding-left: 550px;
+      padding-top: 80px; }
+    body main .seccionDos .parrafo {
+      color: white;
+      display: grid;
+      grid-template-columns: 800px;
+      grid-template-rows: 300px;
+      justify-content: center; }
+  body main .seccionTres {
+    background-color: black;
+    margin-top: 0px; }
+    body main .seccionTres .contenedorMySkills {
+      position: absolute; }
+    body main .seccionTres .imageneSkills {
+      position: absolute;
+      display: grid;
+      grid-template-columns: 483px 483px 483px;
+      grid-template-rows: 237px 238px;
+      border-width: 0.1px;
+      border-style: solid;
+      border-color: #a5a2a22b;
+      margin-left: 450px; }
+      body main .seccionTres .imageneSkills .caja {
+        border-width: 0.1px;
+        border-style: solid;
+        border-color: #a5a2a22b; }
+        body main .seccionTres .imageneSkills .caja .skill {
+          width: 150px;
+          margin-left: 170px;
+          margin-top: 80px; }
+  body main .seccionCuatro {
+    position: relative;
+    margin-top: 700px; }
+    body main .seccionCuatro .textoTres {
+      color: white;
+      padding-left: 550px; }
+    body main .seccionCuatro .parrafoDos {
+      color: white;
+      display: grid;
+      grid-template-columns: 800px;
+      grid-template-rows: 100px;
+      justify-content: center; }
+    body main .seccionCuatro .progreso {
+      padding-bottom: 100px; }
+    body main .seccionCuatro .progress {
+      width: 41%;
+      margin-left: 553px;
+      margin-top: 80px; }
+    body main .seccionCuatro .experienciaUno {
+      position: absolute;
+      padding-left: 551px;
+      padding-top: 35px;
+      color: white; }
+    body main .seccionCuatro .experiencia {
+      position: absolute;
+      padding-left: 551px;
+      padding-top: 50px;
+      color: white; }
+  body main .seccionCinco {
+    background-color: black;
+    padding-top: 80px; }
+    body main .seccionCinco .textoCuatro {
+      color: white;
+      padding-left: 550px;
+      padding-top: 80px; }
+    body main .seccionCinco .parrafoTres {
+      color: white;
+      display: grid;
+      grid-template-columns: 800px;
+      grid-template-rows: 200px;
+      justify-content: center; }
+    body main .seccionCinco .portfolio {
+      display: grid;
+      grid-template-columns: 350px 350px 350px;
+      grid-template-rows: 300px 300px;
+      padding-left: 450px; }
+    body main .seccionCinco .cajaBoton .boton {
+      width: 500px;
+      margin-left: 700px;
+      margin-bottom: 100px;
+      color: white;
+      background-color: #a5a2a22b;
+      border-style: hidden;
+      border-color: #a5a2a22b; }
+  body footer {
+    background-color: #a5a2a22b;
+    padding-bottom: 250px; }
+    body footer .imagContacto {
+      position: absolute;
+      margin-left: 1240px; }
+    body footer .filaUno {
+      position: absolute;
+      padding-left: 200px;
+      padding-top: 200px; }
+      body footer .filaUno .unoContacto {
+        color: white;
+        padding-bottom: 50px; }
+      body footer .filaUno .unoEmail {
+        color: white; }
+        body footer .filaUno .unoEmail .enlacEmail {
+          color: #1dcf9b;
+          text-decoration: none; }
+      body footer .filaUno .unoPhone {
+        color: white;
+        padding-top: 30px; }
+        body footer .filaUno .unoPhone .enlacePhone {
+          color: #1dcf9b;
+          text-decoration: none; }
+      body footer .filaUno .unoAdress {
+        color: white;
+        padding-top: 30px; }
+    body footer .filaDos {
+      padding-left: 900px;
+      padding-top: 200px;
+      display: grid;
+      grid-template-columns: 100px;
+      grid-template-rows: 200px; }
+      body footer .filaDos .enlacesContacto {
+        padding-top: 40px; }
+        body footer .filaDos .enlacesContacto a {
+          text-decoration: none;
+          color: white; }
+
+@media only screen and (max-width: 1440px) {
+  body {
+    width: 132%; } }
+
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 186%; } }
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 248%; } }
+
+@media only screen and (max-width: 425px) {
+  body {
+    width: 447%; } }

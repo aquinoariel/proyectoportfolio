@@ -1,0 +1,233 @@
+body{
+    position: relative;
+    background-color: black;
+    .menu{
+        background-color: black;
+        ul{
+            li{
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+    main{
+        .seccionUno{
+            background-color: black;
+            div{
+                .imgDos{
+                    position: absolute;
+                    padding-left: 1580px;
+                    padding-top: 720px;
+                }
+                .rs{
+                    position: absolute;
+                    padding-left: 91px;
+                }
+            }
+            h1{
+                position: absolute;
+                font-size: 4rem;
+                color: white;
+                display: grid;
+                grid-template-columns: 800px;
+                grid-template-rows: 400px;
+                padding-left: 100px;
+                padding-top: 250px;
+            }
+            div{
+                .img{
+                    padding-left: 1450px;
+                    width: 99%;
+                }
+            }
+        }
+        .seccionDos{
+            background-color: black;
+            padding-top: 80px;
+            .textoDos{
+                color: white;
+                padding-left: 550px;
+                padding-top: 80px;
+            }
+            .parrafo{
+                color: white;
+                display: grid;
+                grid-template-columns: 800px;
+                grid-template-rows: 300px;
+                justify-content: center;
+            }
+        }
+        .seccionTres{
+            background-color: black;
+            margin-top: 0px;
+            .contenedorMySkills{
+                position: absolute;
+            }
+            .imageneSkills{
+                position: absolute;
+                display: grid;
+                grid-template-columns: 483px 483px 483px;
+                grid-template-rows: 237px 238px;
+                border-width: 0.1px;
+                border-style: solid;
+                border-color: #a5a2a22b;
+                margin-left: 450px;
+                .caja{
+                border-width: 0.1px;
+                border-style: solid;
+                border-color: #a5a2a22b;
+                .skill{
+                    width: 150px;
+                    margin-left: 170px;
+                    margin-top: 80px;
+                }
+                }
+            }
+        }
+        .seccionCuatro{
+            position: relative;
+            margin-top: 700px;
+            .textoTres{
+                color: white;
+                padding-left: 550px;
+            }
+            .parrafoDos{
+                color: white;
+                display: grid;
+                grid-template-columns: 800px;
+                grid-template-rows: 100px;
+                justify-content: center;
+            }
+            .progreso{
+                padding-bottom: 100px;
+            }
+            .progress{
+                width: 41%;
+                margin-left: 553px;
+                margin-top: 80px;
+            }
+            .experienciaUno{
+                position: absolute;
+                padding-left: 551px;
+                padding-top: 35px;
+                color: white;
+
+            }
+            .experiencia{
+                position: absolute;
+                padding-left: 551px;
+                padding-top: 50px;
+                color: white;
+
+            }
+        }
+        .seccionCinco{
+            background-color: black;
+            padding-top: 80px;
+            .textoCuatro{
+                color: white;
+                padding-left: 550px;
+                padding-top: 80px;
+            }
+            .parrafoTres{
+                color: white;
+                display: grid;
+                grid-template-columns: 800px;
+                grid-template-rows: 200px;
+                justify-content: center;
+            }
+            .portfolio{
+                display: grid;
+                grid-template-columns: 350px 350px 350px;
+                grid-template-rows: 300px 300px;
+                padding-left: 450px;
+            }
+            .cajaBoton{
+                .boton{
+                    width: 500px;
+                    margin-left: 700px;
+                    margin-bottom: 100px;
+                    color: white;
+                    background-color: #a5a2a22b;
+                    border-style: hidden;
+                    border-color: #a5a2a22b;
+                }
+            }
+        }
+    }
+    footer{
+        background-color: #a5a2a22b;
+        padding-bottom: 250px;
+        .imagContacto{
+            position: absolute;
+            margin-left: 1240px;
+        }
+        .filaUno{
+            position: absolute;
+            padding-left: 200px;
+            padding-top: 200px;
+            .unoContacto{
+                color: white;
+                padding-bottom: 50px;
+            }
+            .unoEmail{
+                color: white;
+                .enlacEmail{
+                    color: #1dcf9b;
+                    text-decoration: none;
+                }
+            }
+            .unoPhone{
+                color: white;
+                padding-top: 30px;
+                .enlacePhone{
+                    color: #1dcf9b;
+                    text-decoration: none;
+                }
+            }
+            .unoAdress{
+                color: white;
+                padding-top: 30px;
+            }
+        }
+        .filaDos{
+            padding-left: 900px;
+            padding-top: 200px;
+            display: grid;
+            grid-template-columns: 100px;
+            grid-template-rows: 200px;
+            .enlacesContacto{
+                padding-top: 40px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    body{
+        width: 132%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        width: 186%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        width: 248%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    body{
+        width: 447%;
+    }
+}
